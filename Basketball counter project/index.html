@@ -11,24 +11,24 @@
       <div class="home-section">
         <h3>HOME</h3>
         <div class="digit-field">
-          <div class="digit">0</div>
+          <div class="digit" id="digit-home">0</div>
         </div>
         <div class="operator-section">
-          <div class="operand">+1</div>
-          <div class="operand">+2</div>
-          <div class="operand">+3</div>
+          <button class="operand" id="one" onclick="addOneHome()">+1</button>
+          <button class="operand" id="two" onclick="addTwoHome()">+2</button>
+          <button class="operand" id="three" onclick="addThreeHome()">+3</button>
         </div>
       </div>
 
       <div class="guest-section">
         <h3>GUEST</h3>
         <div class="digit-field">
-          <div class="digit">0</div>
+          <div class="digit" id="digit-guest">0</div>
         </div>
         <div class="operator-section">
-          <div class="operand opera">+1</div>
-          <div class="operand">+2</div>
-          <div class="operand">+3</div>
+          <button class="operand" id="one" onclick="addOneGuest()">+1</button>
+          <button class="operand" id="two" onclick="addTwoGuest()">+2</button>
+          <button class="operand" id="three" onclick="addThreeGuest()">+3</button>
         </div>
       </div>
     </div>
