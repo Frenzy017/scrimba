@@ -16,7 +16,7 @@ body {
     justify-content: center;
     align-content: center;
     margin-top: auto;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     color: #F9FAFB;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 5rem;
@@ -29,7 +29,6 @@ h3 {
     justify-content: center;
    
 }
-
 
 .container {
     background-color: #111827;
